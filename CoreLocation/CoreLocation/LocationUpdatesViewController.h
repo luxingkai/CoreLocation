@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LocationUpdatesViewController.h
 //  CoreLocation
 //
 //  Created by tigerfly on 2021/3/3.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (nonatomic, strong) UIWindow *window;
+@interface LocationUpdatesViewController : UIViewController
+
 @end
 
+NS_ASSUME_NONNULL_END

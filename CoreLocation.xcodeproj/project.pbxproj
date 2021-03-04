@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		114EB40E25EF6ADB001F42C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB40D25EF6ADB001F42C9 /* AppDelegate.m */; };
-		114EB41125EF6ADB001F42C9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB41025EF6ADB001F42C9 /* SceneDelegate.m */; };
 		114EB41425EF6ADB001F42C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB41325EF6ADB001F42C9 /* ViewController.m */; };
 		114EB41725EF6ADB001F42C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114EB41525EF6ADB001F42C9 /* Main.storyboard */; };
 		114EB41925EF6ADE001F42C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114EB41825EF6ADE001F42C9 /* Assets.xcassets */; };
@@ -16,6 +15,14 @@
 		114EB41F25EF6ADE001F42C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB41E25EF6ADE001F42C9 /* main.m */; };
 		114EB42925EF6ADE001F42C9 /* CoreLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB42825EF6ADE001F42C9 /* CoreLocationTests.m */; };
 		114EB43425EF6ADE001F42C9 /* CoreLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB43325EF6ADE001F42C9 /* CoreLocationUITests.m */; };
+		114EB44425EF6CC4001F42C9 /* CoreLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB44325EF6CC4001F42C9 /* CoreLocationViewController.m */; };
+		114EB44725EF6FA7001F42C9 /* EssentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB44625EF6FA7001F42C9 /* EssentialsViewController.m */; };
+		114EB44A25EF80AF001F42C9 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB44925EF80AF001F42C9 /* AuthorizationViewController.m */; };
+		114EB45025EF929B001F42C9 /* LocationUpdatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB44F25EF929B001F42C9 /* LocationUpdatesViewController.m */; };
+		114EB45325EFAA48001F42C9 /* RegionMonitoringController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB45225EFAA48001F42C9 /* RegionMonitoringController.m */; };
+		114EB45625EFAA67001F42C9 /* iBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB45525EFAA67001F42C9 /* iBeaconViewController.m */; };
+		114EB45925EFAA8F001F42C9 /* CompassHeadingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB45825EFAA8F001F42C9 /* CompassHeadingsController.m */; };
+		114EB45C25EFAA9F001F42C9 /* GeocodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114EB45B25EFAA9F001F42C9 /* GeocodingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		114EB40925EF6ADB001F42C9 /* CoreLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		114EB40C25EF6ADB001F42C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		114EB40D25EF6ADB001F42C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		114EB40F25EF6ADB001F42C9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		114EB41025EF6ADB001F42C9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		114EB41225EF6ADB001F42C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		114EB41325EF6ADB001F42C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		114EB41625EF6ADB001F42C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +59,22 @@
 		114EB42F25EF6ADE001F42C9 /* CoreLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		114EB43325EF6ADE001F42C9 /* CoreLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocationUITests.m; sourceTree = "<group>"; };
 		114EB43525EF6ADE001F42C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114EB44225EF6CC4001F42C9 /* CoreLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreLocationViewController.h; sourceTree = "<group>"; };
+		114EB44325EF6CC4001F42C9 /* CoreLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocationViewController.m; sourceTree = "<group>"; };
+		114EB44525EF6FA7001F42C9 /* EssentialsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialsViewController.h; sourceTree = "<group>"; };
+		114EB44625EF6FA7001F42C9 /* EssentialsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EssentialsViewController.m; sourceTree = "<group>"; };
+		114EB44825EF80AF001F42C9 /* AuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		114EB44925EF80AF001F42C9 /* AuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
+		114EB44E25EF929B001F42C9 /* LocationUpdatesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationUpdatesViewController.h; sourceTree = "<group>"; };
+		114EB44F25EF929B001F42C9 /* LocationUpdatesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationUpdatesViewController.m; sourceTree = "<group>"; };
+		114EB45125EFAA48001F42C9 /* RegionMonitoringController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionMonitoringController.h; sourceTree = "<group>"; };
+		114EB45225EFAA48001F42C9 /* RegionMonitoringController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionMonitoringController.m; sourceTree = "<group>"; };
+		114EB45425EFAA67001F42C9 /* iBeaconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBeaconViewController.h; sourceTree = "<group>"; };
+		114EB45525EFAA67001F42C9 /* iBeaconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeaconViewController.m; sourceTree = "<group>"; };
+		114EB45725EFAA8F001F42C9 /* CompassHeadingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompassHeadingsController.h; sourceTree = "<group>"; };
+		114EB45825EFAA8F001F42C9 /* CompassHeadingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassHeadingsController.m; sourceTree = "<group>"; };
+		114EB45A25EFAA9F001F42C9 /* GeocodingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeocodingViewController.h; sourceTree = "<group>"; };
+		114EB45B25EFAA9F001F42C9 /* GeocodingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocodingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +125,9 @@
 		114EB40B25EF6ADB001F42C9 /* CoreLocation */ = {
 			isa = PBXGroup;
 			children = (
+				114EB44125EF6CAC001F42C9 /* CoreLocation */,
 				114EB40C25EF6ADB001F42C9 /* AppDelegate.h */,
 				114EB40D25EF6ADB001F42C9 /* AppDelegate.m */,
-				114EB40F25EF6ADB001F42C9 /* SceneDelegate.h */,
-				114EB41025EF6ADB001F42C9 /* SceneDelegate.m */,
 				114EB41225EF6ADB001F42C9 /* ViewController.h */,
 				114EB41325EF6ADB001F42C9 /* ViewController.m */,
 				114EB41525EF6ADB001F42C9 /* Main.storyboard */,
@@ -135,6 +155,29 @@
 				114EB43525EF6ADE001F42C9 /* Info.plist */,
 			);
 			path = CoreLocationUITests;
+			sourceTree = "<group>";
+		};
+		114EB44125EF6CAC001F42C9 /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				114EB44225EF6CC4001F42C9 /* CoreLocationViewController.h */,
+				114EB44325EF6CC4001F42C9 /* CoreLocationViewController.m */,
+				114EB44525EF6FA7001F42C9 /* EssentialsViewController.h */,
+				114EB44625EF6FA7001F42C9 /* EssentialsViewController.m */,
+				114EB44825EF80AF001F42C9 /* AuthorizationViewController.h */,
+				114EB44925EF80AF001F42C9 /* AuthorizationViewController.m */,
+				114EB44E25EF929B001F42C9 /* LocationUpdatesViewController.h */,
+				114EB44F25EF929B001F42C9 /* LocationUpdatesViewController.m */,
+				114EB45125EFAA48001F42C9 /* RegionMonitoringController.h */,
+				114EB45225EFAA48001F42C9 /* RegionMonitoringController.m */,
+				114EB45425EFAA67001F42C9 /* iBeaconViewController.h */,
+				114EB45525EFAA67001F42C9 /* iBeaconViewController.m */,
+				114EB45725EFAA8F001F42C9 /* CompassHeadingsController.h */,
+				114EB45825EFAA8F001F42C9 /* CompassHeadingsController.m */,
+				114EB45A25EFAA9F001F42C9 /* GeocodingViewController.h */,
+				114EB45B25EFAA9F001F42C9 /* GeocodingViewController.m */,
+			);
+			path = CoreLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114EB44725EF6FA7001F42C9 /* EssentialsViewController.m in Sources */,
+				114EB45025EF929B001F42C9 /* LocationUpdatesViewController.m in Sources */,
+				114EB44425EF6CC4001F42C9 /* CoreLocationViewController.m in Sources */,
+				114EB44A25EF80AF001F42C9 /* AuthorizationViewController.m in Sources */,
 				114EB41425EF6ADB001F42C9 /* ViewController.m in Sources */,
+				114EB45325EFAA48001F42C9 /* RegionMonitoringController.m in Sources */,
+				114EB45625EFAA67001F42C9 /* iBeaconViewController.m in Sources */,
+				114EB45925EFAA8F001F42C9 /* CompassHeadingsController.m in Sources */,
 				114EB40E25EF6ADB001F42C9 /* AppDelegate.m in Sources */,
+				114EB45C25EFAA9F001F42C9 /* GeocodingViewController.m in Sources */,
 				114EB41F25EF6ADE001F42C9 /* main.m in Sources */,
-				114EB41125EF6ADB001F42C9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigerfly.CoreLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +515,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigerfly.CoreLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
